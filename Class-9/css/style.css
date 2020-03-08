@@ -1,0 +1,498 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.full_wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+/* ======= Common CSS End ======= */
+
+
+
+/* ======= Menu Part Start =======*/
+.menu_full {
+    height: 61px;
+    background: #02918c;
+}
+
+.menu_cont {
+    height: 61px;
+}
+
+.logo {
+    width: 170px;
+    height: 100%;
+    float: left;
+}
+
+.logo img {
+    height: 100%;
+    padding-top: 18px;
+}
+
+.main_menu {
+    width: 1000px;
+    height: 100%;
+    float: left;
+}
+
+.main_menu ul {
+    float: right;
+}
+
+.main_menu ul li {
+    float: left;
+}
+
+.main_menu ul li a {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 12px;
+    margin-left: 50px;
+    line-height: 61px;
+    text-transform: uppercase;
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.main_menu ul li:hover a {
+    color: #cfc91d;
+}
+
+/* ======= Menu Part End =======*/
+
+
+
+/* ======= Banner Part Start =======*/
+.banner_full {
+    background: url(../images/banner.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 200px 0 210px;
+}
+
+.banner_text {
+    text-align: center;
+}
+
+.banner_text h3 {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.banner_text h1 {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    margin-top: -8px;
+    margin-bottom: -8px;
+    letter-spacing: 19px;
+}
+
+.banner_text p {
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.banner_text img {
+    padding: 48px 0 52px;
+    display: block;
+    margin: 0 auto;
+}
+
+.banner_text a {
+    color: #0b1016;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    background: #cfc91d;
+    text-transform: uppercase;
+    padding: 0 42px;
+    letter-spacing: 2px;
+    line-height: 47px;
+}
+
+/* ======= Banner Part End =======*/
+
+
+
+/* ======= About Part Start =======*/
+.about_full {
+    padding: 98px 0 99px;
+}
+
+.about_head {
+    text-align: center;
+}
+
+.about_head h2 {
+    color: #02918c;
+    font-size: 46px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.about_head img {
+    padding: 18px 0 32px;
+}
+
+.about_head p {
+    color: #7e8287;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 41px;
+    padding: 0 140px;
+}
+
+.about_head p span {
+    font-size: 23px;
+    font-weight: 800;
+}
+
+.about_inner {
+    padding-top: 70px;
+}
+
+.about_text {
+	width: 25%;
+	text-align: center;
+	float: left;
+	border-right: 1px solid #d9dbdb;
+	padding: 36px 60px 54px;
+}
+
+#last {
+    border: 0;
+}
+
+.about_text i {
+    color: #02918c;
+    font-size: 32px;
+}
+
+.about_text h3 {
+    color: #7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 24px 0 25px;
+}
+
+.about_text p {
+    color: #7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 21px;
+}
+
+/* ======= About Part End =======*/
+
+
+
+/* ======= services Part Start =======*/
+
+.services_full {
+    background: url(../images/services.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.services_main {
+    width: 50%;
+    padding: 74px 15px 86px;
+}
+
+.services_head {
+    
+}
+
+.services_head h2 {
+    color: #02918c;
+    font-size: 46px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.services_head img {
+    padding: 18px 0 32px;
+}
+
+.services_head p {
+    color: #7e8287;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    line-height: 41px;
+    padding: 0 30px 0 0;
+}
+
+
+.services_text {
+    width: 50%;
+    float: left;
+    padding: 53px 0 0;
+}
+
+.services_text i {
+    color: #02918c;
+    font-size: 32px;
+}
+
+.services_text h3 {
+    color: #7e8287;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    font-weight: 800;
+    margin: 24px 0 25px;
+}
+
+.services_text p {
+	color: #7e8287;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 11px;
+	font-weight: 400;
+	line-height: 21px;
+	padding-right: 85px;
+}
+
+/* ======= services Part End =======*/
+
+
+
+/* ======= Work Part Start =======*/
+
+.work_head {
+    text-align: center;
+    padding: 95px 0 68px;
+}
+
+.work_head h2 {
+    color: #02918c;
+    font-size: 46px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.work_head img {
+    padding: 18px 0 32px;
+}
+
+.work_head p {
+	color: #7e8287;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 41px;
+	padding: 0 275px;
+}
+
+.work_main {
+}
+
+.work_img {
+    width: 25%;
+    float: left;
+    position: relative;
+}
+
+.work_img img {
+    width: 100%;
+}
+
+.work_img .overly {
+    text-align: center;
+    background: rgba(2, 145, 140, 0.85);
+    position: absolute;
+    top: 28px;
+    bottom: 28px;
+    right: 28px;
+    left: 28px;
+    padding-top: 53px;
+    transform: scale(0);
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.work_img .overly h3 {
+    color: #fff;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.work_img .overly p {
+    color: #fff;
+    padding: 0 30px;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 400;
+}
+
+.work_img:hover .overly {
+    transform: scale(1);
+}
+
+/* ======= Work Part End =======*/
+
+
+
+/* ======= Contact Part Start =======*/
+
+.contact_head {
+    text-align: center;
+    padding: 85px 0 62px;
+}
+
+.contact_head h2 {
+    color: #02918c;
+    font-size: 46px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    text-transform: uppercase;
+}
+
+.contact_head img {
+    padding: 18px 0 32px;
+}
+
+.contact_head p {
+	color: #7e8287;
+	font-size: 16px;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	line-height: 41px;
+	padding: 0 275px;
+}
+
+.contact_main {
+    background: #0b0b0b;
+    padding: 50px 0 70px;
+    text-align: center;
+}
+
+.contact_form input {
+    width: 637px;
+    display: block;
+    height: 48px;
+    margin-bottom: 50px;
+    background: transparent;
+    border: 0;
+    border-bottom: 1px solid #898989;
+    color: #7e8287;
+    text-align: center;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 41px;
+    margin-left: 256px;
+}
+
+.contact_form input::placeholder {
+    text-transform: uppercase;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 41px;
+}
+
+.contact_form label {
+    color: #7e8287;
+    font-size: 16px;
+    line-height: 41px;
+    font-weight: 400;
+	font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+}
+
+.contact_form textarea {
+    width: 917px;
+    height: 90px;
+    display: block;
+    color: #7e8287;
+	font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    line-height: 28px;
+    background: transparent;
+    border: 0;
+    border-top: 1px solid #898989;
+    border-bottom: 1px solid #898989;
+    resize: none;
+    margin-left: 116px;
+}
+
+.contact_form button {
+    color: #0b1016;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 14px;
+    background: #cfc91d;
+    text-transform: uppercase;
+    padding: 0 65px;
+    letter-spacing: 2px;
+    line-height: 50px;
+    border: 0;
+    cursor: pointer;
+    margin-top: 67px;
+}
+
+.contact_bottom {
+    text-align: center;
+    padding: 35px 0 27px;
+    background: #000;
+}
+
+.contact_bottom p {
+    color: #7e8287;
+    font-size: 12px;
+	font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+/* ======= Contact Part End =======*/

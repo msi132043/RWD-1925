@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.full_wraper {
+    width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+/* ========== Common css end ========== */
+
+
+/* ========== Menu part start ========== */
+.menu_full {
+    height: 60px;
+    background: #02918c;
+}
+
+.menu_cont {
+    height: 100%;
+}
+
+.logo {
+    width: 170px;
+    height: 100%;
+    float: left;
+}
+
+.logo a {
+    padding-top: 18px;
+}
+
+.main_menu {
+    width: 1000px;
+    height: 100%;
+    float: left;
+}
+
+.main_menu ul {
+    float: right;
+}
+
+.main_menu ul li {
+    float: left;
+}
+
+.main_menu ul li a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    line-height: 60px;
+    margin-left: 50px;
+    transition: all linear .5s;
+    -webkit-transition: all linear .5s;   
+    -moz-transition: all linear .5s;   
+    -o-transition: all linear .5s;   
+    -ms-transition: all linear .5s;   
+}
+
+.main_menu ul li a:hover {
+    color: #cfc91d;
+}
+
+/* ========== Menu part end ========== */
+
+
+/* ========== Banner part start ========== */
+
+.banner_full {
+    background: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 210px 0 210px;
+}
+
+.banner_text {
+    text-align: center;
+}
+
+.banner_text h3 {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: -8px;
+}
+
+.banner_text h1 {
+    color: #fff;
+    font-size: 60px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 20px;
+    margin-bottom: -8px;
+}
+
+.banner_text p {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.banner_text img {
+    padding-top: 50px;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: 52px;
+}
+
+.banner_text a {
+    padding: 0 42px;
+    line-height: 46px;
+    background: #cfc91d;
+    color: #0b1016;
+    font-size: 14px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* ========== Banner part end ========== */
+
+
+/* ========== About part start ========== */
+
+.about_head {
+    text-align: center;
+}
+
+.about_full {
+    padding: 100px 0;
+}
+
+.about_head h2 {
+    color: #02918c;
+    font-size: 46px;
+    font-weight: 800;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    padding-bottom: 12px;
+}
+
+.about_head p {
+    color: #7e8287;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 41px;
+    padding: 0 130px;
+}
+
+.about_head p span {
+    font-weight: 800;
+    font-size: 23px;
+}
+
+.about_text {
+    width: 25%;
+    float: left;
+    text-align: center;
+    color: #7e8287;
+    border-right: 1px solid #d9dbdb;
+    box-sizing: border-box;
+}
+
+/* ========== About part end ========== */
+
+
+/* ========== Menu part start ========== */
+
+/* ========== Menu part end ========== */
+
+
+/* ========== Menu part start ========== */
+
+/* ========== Menu part end ========== */
+
+
+/* ========== Menu part start ========== */
+
+/* ========== Menu part end ========== */
+
+
+/* ========== Menu part start ========== */
+
+/* ========== Menu part end ========== */
+
+
+/* ========== Menu part start ========== */
+
+/* ========== Menu part end ========== */
+
+
+
+
+
