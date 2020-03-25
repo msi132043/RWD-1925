@@ -482,6 +482,22 @@ img {
     box-shadow: 0px 0px 5px 1px rgba(0, 0, 0, 0.6);
 }
 
+.journal_item .img {
+    overflow: hidden;
+}
+
+.journal_item .img img {
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+}
+
+.journal_item:hover .img img {
+    transform: scale(1.2);
+}
+
 .journal_item h3 {
     font-family: 'Roboto Slab', serif;
     font-size: 17px;
