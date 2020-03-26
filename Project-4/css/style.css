@@ -603,7 +603,7 @@ img {
     border-left: 70px solid transparent;
     border-right: 70px solid transparent;
     border-bottom: 35px solid #4bcaff;
-    z-index: 1;
+    z-index: -1;
 }
 
 .testimonial .body .img::after {
