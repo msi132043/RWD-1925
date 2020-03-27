@@ -302,11 +302,14 @@ ul {
     justify-content: space-between;
 }
 
+/* ============= services part start ============= */
+
 .service_item {
-    width: 31%;
+    width: 31.94%;
     background: #f1f1f1;
     padding-top: 41px;
     float: left;
+    margin-right: 20px;
     position: relative;
     transition: all linear .3s;
     -webkit-transition: all linear .3s;
@@ -315,9 +318,13 @@ ul {
     -ms-transition: all linear .3s;
 }
 
+#last_item {
+    margin-right: 0;
+}
+
 .service_item h3 {
     text-transform: uppercase;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Oswald';
     font-weight: 500;
     font-size: 16px;
     color: #353535;
@@ -326,7 +333,7 @@ ul {
 
 .service_item p {
     padding: 7px 22px 20px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Open Sans';
     color: #555555;
     font-size: 13px;
     font-weight: 400;
@@ -351,6 +358,20 @@ ul {
     -ms-transition: all linear .3s;
 }
 
+.service_item:hover {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    -ms-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+}
+
+.service_item:hover .service_icon {
+    background: #5bc5f4;
+}
+
+/* by bafter & before start */
+/*
 .service_icon:after {
     position: absolute;
     content: '';
@@ -378,21 +399,47 @@ ul {
     border: 3px solid #ffffff;
 }
 
-.service_item:hover {
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    -o-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    -ms-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+.service_item:hover .service_icon:after {
+    border: 1px solid #5bc5f4;
+}
+*/
+/* by bafter & before end */
+
+
+/* by box-shadow start */
+.service_icon {
+    border: 0;
+    box-shadow: 0 0 0 2px #fff,
+        0 0 0 3px #f1f1f1,
+        0 0 0 6px #fff;
+    -webkit-box-shadow: 0 0 0 2px #fff,
+        0 0 0 3px #f1f1f1,
+        0 0 0 6px #fff;
+    -moz-box-shadow: 0 0 0 2px #fff,
+        0 0 0 3px #f1f1f1,
+        0 0 0 6px #fff;
+    -ms-box-shadow: 0 0 0 2px #fff,
+        0 0 0 3px #f1f1f1,
+        0 0 0 6px #fff;
+    -o-box-shadow: 0 0 0 2px #fff,
+        0 0 0 3px #f1f1f1,
+        0 0 0 6px #fff;
+    
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    -ms-transition: all linear .3s;
 }
 
 .service_item:hover .service_icon {
     background: #5bc5f4;
+    box-shadow: 0 0 0 2px #fff,
+        0 0 0 3px #5bc5f4,
+        0 0 0 6px #fff;
 }
 
-.service_item:hover .service_icon:after {
-    border: 1px solid #5bc5f4;
-}
+/* by box-shadow end */
 
 /* ============= services part end ============= */
 
