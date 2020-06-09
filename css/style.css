@@ -10,12 +10,6 @@ html {
   font-family: sans-serif;
 }
 
-/*
-body {
-  position: relative;
-}
-*/
-
 a {
   text-decoration: none;
   display: inline-block;
@@ -43,11 +37,12 @@ img {
   clear: both;
 }
 
-/* ======= Common CSS End ======= */
+/* ================== Common CSS End =================== */
 
 
 
-/* ======= Menu Part Start =======*/
+/* ~~~~~~~~~~~~~~~~~~ Menu Part Start ~~~~~~~~~~~~~~~~~~
+======================================================== */
 .menu_full {
   height: 61px;
   background: #02918c;
@@ -118,11 +113,12 @@ img {
   display: none;
 }
 
-/* ======= Menu Part End =======*/
+/* ================== Menu Part End ==================== */
 
 
 
-/* ======= Banner Part Start =======*/
+/* ~~~~~~~~~~~~~~~~~~ Banner Part Start ~~~~~~~~~~~~~~~~~~
+======================================================== */
 .banner_full {
   background: url(../images/index.png);
   background-repeat: no-repeat;
@@ -185,11 +181,12 @@ img {
   border: 2px solid #fff;
 }
 
-/* ======= Banner Part End =======*/
+/* ================== Banner Part End ==================== */
 
 
 
-/* ======= About Part Start =======*/
+/* ~~~~~~~~~~~~~~~~~~ About Part Start ~~~~~~~~~~~~~~~~~~
+========================================================= */
 .about_full {
   padding: 70px 0;
 }
@@ -267,11 +264,12 @@ img {
   color: tomato;
 }
 
-/* ======= About Part End =======*/
+/* ================== About Part End ==================== */
 
 
 
-/* ======= services Part Start =======*/
+/* ~~~~~~~~~~~~~~~~~~ Services Part Start ~~~~~~~~~~~~~~~~~~
+============================================================ */
 
 .services_full {
   background: url(../images/services.jpg);
@@ -337,11 +335,12 @@ img {
   padding-left: 15px;
 }
 
-/* ======= services Part End =======*/
+/* ================== Services Part End ==================== */
 
 
 
-/* ======= Work Part Start =======*/
+/* ~~~~~~~~~~~~~~~~~~ Work Part Start ~~~~~~~~~~~~~~~~~~
+======================================================== */
 
 .work_head {
   text-align: center;
@@ -451,12 +450,12 @@ img {
   background: #fff;
 }
 
-/* ======= Work Part End =======*/
+/* ================== Work Part End ==================== */
 
 
 
-/* ======= Contact Part Start =======*/
-
+/* ~~~~~~~~~~~~~~~~~ Contact Part Start ~~~~~~~~~~~~~~~~~
+--------------------------------------------------------- */
 .contact_head {
   text-align: center;
   padding: 85px 0 0px;
@@ -582,25 +581,37 @@ img {
   text-decoration: underline;
 }
 
-/* ======= Contact Part End =======*/
+/* ================== Contact Part End ================== */
 
 
-/*===============================================
-  ~~~~~~~~~~~  Responsive Part Start  ~~~~~~~~~~~
-  ===============================================  */
 
+/* ====================================================================
+  ----------------------- Responsive Part Start -----------------------
+  ===================================================================== */
+
+/* ---------------------------------------------------------
+  ~~~~~~~~~~~~~~~~ Extra Large Device Start ~~~~~~~~~~~~~~~~
+------------------------------------------------------------ */
 @media (min-width: 1200px) {
+  
   .container {
     width: 1200px;
   }
+  
 }
 
+
+/* --------------------------------------------------------- 
+  ~~~~~~~~~~~~~~~~~~~ Large Device Start ~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------ */
 @media (min-width: 992px) and (max-width: 1199px) {
+  
   .container {
     width: 960px;
   }
-  
-  /* ======= About Part Start =======*/
+
+
+  /* ======== About Part Start ======== */
 
   .about_div .profile img {
     width: 90%;
@@ -619,9 +630,10 @@ img {
     font-size: 52px;
   }
 
-  /* ======= About Part End =======*/
-  
-  /* ======= Work Part Start =======*/
+  /* ======== About Part End ======== */  
+
+
+  /* ======== Work Part Start ======== */
   .work_img.small {
     width: 12.5%;
   }
@@ -630,15 +642,21 @@ img {
     padding-top: 7px;
   }
 
-  /* ======= Work Part End =======*/
+  /* ======== Work Part End ======== */
+  
 }
 
+/* --------------------------------------------------------- 
+  ~~~~~~~~~~~~~~~~~~~ Medium Device Start ~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------ */
 @media (min-width: 768px) and (max-width: 991px) {
+  
   .container {
     width: 720px;
   }
 
-  /* ======= Banner Part Start =======*/
+
+  /* ======== Banner Part Start ======== */
   .banner_full {
     padding: 150px 0 130px;
   }
@@ -670,9 +688,10 @@ img {
     padding: 0 15px;
   }
 
-  /* ======= Banner Part End =======*/
+  /* ======== Banner Part End ======== */
 
-  /* ======= About Part Start =======*/
+
+  /* ======== About Part Start ======== */
 
   .about_div .profile img {
     width: 90%;
@@ -693,9 +712,10 @@ img {
     margin-bottom: 60px;
   }
 
-  /* ======= About Part End =======*/
+  /* ======== About Part End ======== */
 
-  /* ======= services Part Start =======*/
+
+  /* ======== services Part Start ======== */
   .services_main {
     width: 50%;
     padding-left: 20px;
@@ -729,9 +749,10 @@ img {
     padding-left: 5px;
   }
 
-  /* ======= services Part End =======*/
+  /* ======== services Part End ======== */
 
-  /* ======= Work Part Start =======*/
+
+  /* ======== Work Part Start ======== */
   .work_img.small {
     width: 12.5%;
   }
@@ -740,16 +761,21 @@ img {
     padding-top: 7px;
   }
 
-  /* ======= Work Part End =======*/
-
+  /* ======== Work Part End ======== */
+  
 }
 
+/* --------------------------------------------------------- 
+  ~~~~~~~~~~~~~~~~~~~ Small Device Start ~~~~~~~~~~~~~~~~~~~
+------------------------------------------------------------ */
 @media (min-width: 576px) and (max-width: 767px) {
+  
   .container {
     width: 540px;
   }
 
-  /* ======= Banner Part Start =======*/
+
+  /* ======== Banner Part Start ======== */
   .banner_full {
     padding: 150px 0 130px;
   }
@@ -790,9 +816,10 @@ img {
     border: 1px solid #fff;
   }
 
-  /* ======= Banner Part End =======*/
+  /* ======== Banner Part End ======== */
 
-  /* ======= Menu Part Start =======*/
+
+  /* ======== Menu Part Start ======== */
   .menu_full {
     height: 200px;
     position: fixed;
@@ -849,9 +876,10 @@ img {
     z-index: 1001;
   }
 
-  /* ======= Menu Part End =======*/
+  /* ======== Menu Part End ======== */
 
-  /* ======= About Part Start =======*/
+
+  /* ======== About Part Start ======== */
   .about_full {
     padding: 15px 0;
   }
@@ -893,9 +921,10 @@ img {
     margin-bottom: 60px;
   }
 
-  /* ======= About Part End =======*/
+  /* ======== About Part End ======== */
 
-  /* ======= services Part Start =======*/
+
+  /* ======== services Part Start ======== */
   .services_main {
     width: 100%;
     padding: 15px 0 15px;
@@ -940,9 +969,10 @@ img {
     padding-left: 5px;
   }
 
-  /* ======= services Part End =======*/
+  /* ======== services Part End ======== */
 
-  /* ======= Work Part Start =======*/
+
+  /* ======== Work Part Start ======== */
   .work_head {
     text-align: center;
     padding: 15px 0;
@@ -960,11 +990,10 @@ img {
     width: 25%;
   }
 
-  /* ======= Work Part End =======*/
-
-  /* ======= Contact Part Start =======*/
+  /* ======== Work Part End ======== */
 
 
+  /* ======== Contact Part Start ======== */
   .contact_head {
     padding: 15px 0 0px;
   }
@@ -993,17 +1022,22 @@ img {
     padding: 0 20px;
   }
 
-  /* ======= Contact Part End =======*/
+  /* ======== Contact Part End ======== */
 }
 
+
+/* --------------------------------------------------------- 
+  ~~~~~~~~~~~~~~~~ Extra Small Device Start ~~~~~~~~~~~~~~~~
+------------------------------------------------------------ */
 @media (max-width: 575px) {
+  
   .container {
     width: 100%;
     max-width: 540px;
     margin: 0 auto;
   }
 
-  /* ======= Banner Part Start =======*/
+  /* ======== Banner Part Start ======== */
   .banner_full {
     padding: 150px 0 130px;
   }
@@ -1044,9 +1078,10 @@ img {
     border: 1px solid #fff;
   }
 
-  /* ======= Banner Part End =======*/
+  /* ======== Banner Part End ======== */
 
-  /* ======= Menu Part Start =======*/
+
+  /* ======== Menu Part Start ======== */
   .menu_full {
     height: 200px;
     position: fixed;
@@ -1103,9 +1138,10 @@ img {
     z-index: 1001;
   }
 
-  /* ======= Menu Part End =======*/
+  /* ======== Menu Part End ======== */
 
-  /* ======= About Part Start =======*/
+
+  /* ======== About Part Start ======== */
   .about_full {
     padding: 15px 0;
   }
@@ -1147,9 +1183,10 @@ img {
     margin-bottom: 60px;
   }
 
-  /* ======= About Part End =======*/
+  /* ======== About Part End ======== */
 
-  /* ======= services Part Start =======*/
+
+  /* ======== services Part Start ======== */
   .services_main {
     width: 100%;
     padding: 15px 0 15px;
@@ -1194,9 +1231,10 @@ img {
     padding-left: 5px;
   }
 
-  /* ======= services Part End =======*/
+  /* ======== services Part End ======== */
 
-  /* ======= Work Part Start =======*/
+
+  /* ======== Work Part Start ======== */
   .work_head {
     text-align: center;
     padding: 15px 0;
@@ -1214,11 +1252,10 @@ img {
     width: 50%;
   }
 
-  /* ======= Work Part End =======*/
-
-  /* ======= Contact Part Start =======*/
+  /* ======== Work Part End ======== */
 
 
+  /* ======== Contact Part Start ======== */
   .contact_head {
     padding: 15px 0 0px;
   }
@@ -1247,6 +1284,6 @@ img {
     padding: 0 20px;
   }
 
-  /* ======= Contact Part End =======*/
+  /* ======== Contact Part End ======== */
 
 }
