@@ -23,6 +23,7 @@ img {
 
 .container {
     width: 1170px;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -54,7 +55,7 @@ img {
 }
 
 .main_menu {
-    width: 1000px;
+    width: 790px;
     height: 100%;
     float: left;
 }
