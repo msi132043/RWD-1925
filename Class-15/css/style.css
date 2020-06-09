@@ -26,7 +26,7 @@ img {
 }
 
 .container {
-    width: 970px;
+    width: 960px;
     margin: 0 auto;
 }
 
@@ -53,7 +53,7 @@ img {
 }
 
 .header_text {
-    width: 650px;
+    width: 640px;
     float: left;
 }
 
@@ -72,7 +72,7 @@ img {
 .contact_number p {
     font-weight: 400;
     line-height: 117px;
-    font-size: 30px;
+    font-size: 28px;
     color: #b76262;
 }
 
@@ -87,7 +87,7 @@ img {
 }
 
 .main_menu {
-    width: 870px;
+    width: 860px;
     float: left;
 }
 
