@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="main_div">
+        <h1 id="header"></h1>
+        <h3></h3>
+        <p></p>
+        <a href="#"></a>
+    </div>
+    
+    <div id="color"></div>
+
+
+    <script>
+        /*  ====================================================
+                            HTML Part
+        ==================================================== */
+
+        document.getElementById('header').innerHTML = " I'm Saiful Islam Saif ";
+
+        document.getElementsByTagName('h3')[0].innerHTML = " I'm a Web Designer ";
+
+        document.getElementsByTagName('p')[0].innerHTML = " Responsive Web Design by HTML, CSS with Bootstrap, JavaScrip with jQuery. Responsive Web Design by HTML, CSS with Bootstrap, JavaScrip with jQuery. Responsive Web Design by HTML, CSS with Bootstrap, JavaScrip with jQuery. ";
+
+        document.getElementsByTagName('a')[0].innerHTML = " Read More ";
+
+
+
+        /*  ====================================================
+                                CSS Part
+            ==================================================== */
+
+        document.getElementsByTagName("body")[0].style = " color: #dd1010; text-align: center; padding-top: 50px; font-family: sans-serif; ";
+
+        document.getElementsByClassName('main_div')[0].style = " background: #132043; margin: 20px auto; width: 700px; text-align: center; padding: 50px; ";
+
+        document.getElementById('header').style = " color: #fff; font-family: 'Roboto', sans-serif; font-size: 50px; font-weight: 700; text-transform: uppercase; ";
+
+        document.getElementsByTagName('h3')[0].style = " color: #fff; font-family: 'Roboto Slab', serif; font-size: 30px; font-weight: 300; text-transform: uppercase; ";
+
+        document.getElementsByTagName('p')[0].style = " color: #dedede; font-family: 'Roboto Slab', serif; font-size: 18px; font-weight: 300; line-height: 28px; text-align: justify; margin-top: 20px; ";
+
+        document.getElementsByTagName('a')[0].style = " color: #a6a6a6; font-family: 'Roboto', sans-serif; font-weight: 400; text-transform: uppercase; line-height: 48px; border: 1px solid #797979; padding: 0 20px; margin-top: 40px; ";
+
+        
+        var n = "#";
+        var code = 132043; 
+        //var code = prompt("Enter color hex code");
+
+        document.getElementById('color').style = " width: 50px; height: 50px; margin: 20px auto; ";
+        
+        document.getElementById("color").style.background = n+code;
+
+
+        /* =============== JavaScript Practice =============== */
+
+        document.write("<br><br> Hello JavaScript <br><br>");
+
+        window.alert("Welcome to JavaScript");
+
+        console.log("hello colsole");
+
+        var course = "RWD";
+        var batch = 1925;
+
+        document.write(course + "-" + batch);
+
+        document.write("<br><br>");
+
+        //Object:
+        var car = {
+            Brand: 'Toyota',
+            Model: 'Premio',
+            Transmissions: 'Automatic',
+            Color: 'White',
+            Fuel: 'Octane',
+            CC: 1500,
+        }
+
+        document.write(car.Brand + "<br>" + car.Model + "<br>" + car.Color);
+
+        document.write("<br><br>");
+
+        //array: [Note: array neme = name[] here have a problem] 
+        var student = ['Reza', 'Tauhid', 'Saif', 'Asad', 'Riyad', 'Taj', 'Sajal', 'Rafi'];
+
+        document.write(student);
+
+        document.write("<br><br>");
+
+        document.write(student[0]);
+
+        document.write("<br><br>");
+
+        //conditions
+        var a = 30;
+        var b = 30;
+
+        //var a = prompt ("Enter 1st Number : ");
+        //var b = prompt ("Enter 2nd Number : ");
+
+        document.write(a + "<br><br>");
+        document.write(b + "<br><br>");
+
+        if (a > b) {
+            document.write("1st Number is big");
+            document.write("<br><br>");
+        } else if (a < b) {
+            document.write("2nd Number is big");
+            document.write("<br><br>");
+        } else if (a == b) {
+            document.write("Both is equal");
+            document.write("<br><br>");
+        } else {
+            document.write("Nothing");
+            document.write("<br><br>");
+        }
+
+    </script>
+</body>
+
+</html>
