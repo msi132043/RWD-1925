@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!--
+
+<form>
+    <input type="text" placeholder="First Name" id="fname">
+    <div id="fname_err"></div>
+    
+    <input type="text" placeholder="Last Name" id="lname">
+    <div id="lname_err"></div>
+    
+    <input type="text" placeholder="E-mail" id="email">
+    <div id="email_err"></div>
+    
+    <input type="password" placeholder="Password" id="pass">
+    <div id="pass_err"></div>
+    
+    <button type="submit" onclick="return form_valid()">Send</button>
+</form>
+
+-->
+
+
+
+
+
+
+
+    <form>
+        <div class="full_name">
+            <input type="text" id="first_name" placeholder="First Name">
+            <input type="text" id="last_name" placeholder="Last Name">
+            
+            <div id="first_name_error"></div>
+            <div id="last_name_error"></div>
+        </div>
+
+        <div class="email">
+            <input type="text" id="email" placeholder="Email Address">
+            <div id="email_error"></div>
+        </div>
+
+        <div class="password">
+            <input type="password" id="password" placeholder="Password">
+            <div id="password_error"></div>
+        </div>
+
+        <button type="reset" onclick="return reset_remove()">Reset</button>
+        <button type="submit" onclick="return form_validation()">Submit</button>
+    </form>
+
+
+
+
+
+
+
+
+
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
