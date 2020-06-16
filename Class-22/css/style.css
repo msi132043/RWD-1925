@@ -1,0 +1,47 @@
+body {
+    background: #f7f7f7;
+    color: tomato;
+    font-family: sans-serif;
+    padding: 0 20%;
+}
+
+.main {
+    margin: 0px auto;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
+h1 {
+    font-size: 30px;
+    color: #2ecc71;
+}
+
+.item h2 {
+    font-size: 20px;
+    margin-bottom: -30px;
+}
+
+.item p {
+    font-size: 40px;
+    color: #1abc9c;
+}
+
+.progress-bar {
+    margin: 50px 0;
+}
+
+.proggress {
+    border-top-right-radius: 10px !important;
+    border-bottom-right-radius: 10px !important;
+    height: 15px !important;
+}
+
+.percentCount {
+    color: #1abc9c;
+    font-size: 20px;
+}
