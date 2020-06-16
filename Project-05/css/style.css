@@ -1,0 +1,1307 @@
+@font-face {
+    font-family: 'Roboto-Black';
+    src: url(../fonts/Roboto-Black.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url(../fonts/Roboto-Light.ttf);
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Black';
+    src: url(../fonts/PlayfairDisplay-Black.ttf);
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Regular';
+    src: url(../fonts/PlayfairDisplay-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'PlayfairDisplay-Bold';
+    src: url(../fonts/PlayfairDisplay-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'HammersmithOne-Regular';
+    src: url(../fonts/HammersmithOne-Regular.ttf);
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto-Regular', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+}
+
+li,
+ol,
+ul {
+    list-style: none;
+}
+
+img {
+    vertical-align: middle;
+}
+
+.full_wrapper {
+    width: 100%;
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.clr {
+    clear: both;
+}
+
+/*  ===========================================================
+                          Common Css End
+    ===========================================================  */
+
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~ Header Part Start ~~~~~~~~~~~~~~~~~~~~
+===============================================================  */
+.header_full {
+    height: 670px;
+    position: relative;
+}
+
+.banner_slider .item-1 {
+    background: url(../images/banner_slider-1.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 670px;
+}
+
+.banner_slider .item-2 {
+    background: url(../images/banner_slider-2.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 670px;
+}
+
+.banner_slider .item-3 {
+    background: url(../images/banner_slider-3.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 670px;
+}
+
+.banner_slider .item-4 {
+    background: url(../images/banner_slider-4.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    height: 670px;
+}
+
+.banner_slider .slick-dots {
+    position: absolute;
+    bottom: 75px;
+    left: 50%;
+    z-index: 2;
+
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.banner_slider .slick-dots li button {
+    font-size: 0;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    background: transparent;
+    margin: 2.5px;
+    cursor: pointer;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.banner_slider .slick-dots li.slick-active button {
+    background: #00e0d0;
+    border: 1px solid #00e0d0;
+}
+
+.banner_slider .slick-dots li button:hover {
+    background: #fff;
+    border: 1px solid #fff;
+}
+
+.header_full .overly {
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(37, 22, 80, 0.85);
+    text-align: center;
+    padding-top: 218px;
+}
+
+.header_full .overly h1 {
+    font-family: 'PlayfairDisplay-Black', sans-serif;
+    color: #fff;
+    font-size: 32px;
+    position: relative;
+}
+
+.header_full .overly h1::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    left: 50%;
+    bottom: -22px;
+    background: #00e0d0;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.header_full .overly p {
+    font-family: 'Roboto-Light', sans-serif;
+    color: #fff;
+    font-size: 14px;
+    line-height: 24px;
+    margin-top: 38px;
+    padding: 0 135px;
+}
+
+.header_full .overly a {
+    font-family: 'HammersmithOne-Regular', sans-serif;
+    color: #00e0d0;
+    font-size: 16px;
+    line-height: 40px;
+    margin-top: 42px;
+    padding: 0 15px;
+    border: 1px solid #00e0d0;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.header_full .overly a:hover {
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -ms-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.header_container {
+    position: absolute;
+    top: 0;
+    left: 50%;
+
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    justify-content: space-between;
+
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.logo {
+    z-index: 2;
+}
+
+.main_menu {
+    z-index: 2;
+}
+
+.main_menu ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    justify-content: flex-end;
+
+    -ms-align-items: center;
+    align-items: center;
+}
+
+.main_menu ul li a {
+    margin-left: 25px;
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-family: 'Roboto-Black', sans-serif;
+    line-height: 80px;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.main_menu ul li a:hover {
+    color: #00e0d0;
+}
+
+/*  ===========================================================
+    ~~~~~~~~~~~~~~~~~~~~  Header Part End  ~~~~~~~~~~~~~~~~~~~~  */
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~ Story Part Start ~~~~~~~~~~~~~~~~~~~~
+===============================================================  */
+.story_full {
+    padding: 70px 0;
+}
+
+.story_container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: center;
+}
+
+.story_container .item-1 {
+    width: 400px;
+}
+
+.story_container .item-1 .img {
+    margin-left: 75px;
+}
+
+.story_container .item-2 {
+    width: 560px;
+}
+
+.story_container .item-2 h2 {
+    font-family: 'PlayfairDisplay-Bold', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #413d4b;
+    margin-top: -7px;
+}
+
+.story_container .item-2 p {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+    color: #413d4b;
+    margin-top: 20px;
+    padding-right: 57px;
+}
+
+.story_container .item-2 p span {
+    display: block;
+    margin-top: 25px;
+}
+
+.story_container .item-2 a {
+    font-family: 'HammersmithOne-Regular', sans-serif;
+    color: #00e0d0;
+    font-size: 16px;
+    line-height: 40px;
+    margin-top: 30px;
+    padding: 0 15px;
+    text-transform: uppercase;
+    border: 1px solid #00e0d0;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.story_container .item-2 a:hover {
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -ms-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.story_video_full {
+    background: url(../images/banner_video.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 200px 0;
+    text-align: center;
+    position: relative;
+    z-index: 1;
+}
+
+.story_video_inner a i {
+    line-height: 94px;
+    font-size: 42px;
+    color: #fff;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    z-index: 2;
+    cursor: pointer;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    padding-left: 9px;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.story_video_inner a:hover i {
+    border: 3px solid #00e0d0;
+    color: #00e0d0;
+    -webkit-transform: rotate(120deg);
+    -ms-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+}
+
+.story_video_inner p {
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #fff;
+    margin-top: 29px;
+}
+
+.story_video_full .overly {
+    background: rgba(27, 16, 68, 0.85);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+/*  ===========================================================
+    ~~~~~~~~~~~~~~~~~~~~  Story Part End  ~~~~~~~~~~~~~~~~~~~~  */
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~ Expertise Part Start ~~~~~~~~~~~~~~~~~~~~
+===============================================================  */
+.expertise_full {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.expertise_container .head {
+    position: relative;
+}
+
+.expertise_container .head::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    left: 50%;
+    bottom: 0;
+    background: #c6c4c9;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.expertise_container .head h2 {
+    font-family: 'PlayfairDisplay-Bold', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #413d4b;
+}
+
+.expertise_container .head p {
+    font-family: 'PlayfairDisplay-Regular', sans-serif;
+    font-size: 14px;
+    color: #2f2d35;
+    padding: 10px 0 15px;
+}
+
+.expertise_container .body {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+
+    justify-content: space-between;
+    padding-top: 30px;
+}
+
+.expertise_container .body .item {
+    width: 32%;
+    padding: 50px 0 30px;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.expertise_container .body .item:hover {
+    -webkit-box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.75);
+    -ms-box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 1px 3px 0px rgba(0, 0, 0, 0.75);
+}
+
+.expertise_container .body .item i {
+    font-size: 50px;
+    color: #49a5cd;
+    display: block;
+}
+
+.expertise_container .body .item h3 {
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: #413d4b;
+    margin: 25px 0 20px;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.expertise_container .body .item h3:hover {
+    color: #49a5cd;
+}
+
+.expertise_container .body .item p {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    color: #333333;
+    padding: 0 25px;
+}
+
+/*  ===========================================================
+    ~~~~~~~~~~~~~~~~~~~~  Expertise Part End  ~~~~~~~~~~~~~~~~~~~~  */
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~ Team Part Start ~~~~~~~~~~~~~~~~~~~~
+===============================================================  */
+.team_full {
+    padding: 70px 0;
+    text-align: center;
+    background: url(../images/banner_team.jpg) no-repeat center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.team_full .overly {
+    background: rgba(27, 16, 68, 0.85);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+
+.team_container .head {
+    position: relative;
+}
+
+.team_container .head::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    left: 50%;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.2);
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.team_container .head h2 {
+    font-family: 'PlayfairDisplay-Bold', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.team_container .head p {
+    font-family: 'PlayfairDisplay-Regular', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 0 15px;
+}
+
+.team_container .body {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+    justify-content: space-around;
+    padding: 47px 0 63px;
+}
+
+.team_container .body .member {
+    width: 23%;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.team_container .body .member:hover {
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -ms-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.team_container .body .member .text {
+    padding: 15px 0;
+}
+
+.team_container .body .member h3 {
+    font-family: 'Roboto-Black', sans-serif;
+    color: #fff;
+    font-size: 14px;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.team_container .body .member h3:hover {
+    color: #00e0d0;
+}
+
+.team_container .body .member p {
+    font-family: 'Roboto-Light', sans-serif;
+    color: #fff;
+    font-size: 13px;
+    padding: 6px 0 3px;
+}
+
+.team_container .body .member .img {
+    background: transparent;
+}
+
+.team_container .body .member .img img {
+    width: 100%;
+}
+
+.team_container .link p {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+.team_container .link a {
+    font-family: 'HammersmithOne-Regular', sans-serif;
+    color: #00e0d0;
+    font-size: 16px;
+    line-height: 40px;
+    margin-top: 20px;
+    padding: 0 15px;
+    border: 1px solid #00e0d0;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.team_container .link a:hover {
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -ms-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*  ===========================================================
+    ~~~~~~~~~~~~~~~~~~~~  Team Part End  ~~~~~~~~~~~~~~~~~~~~  */
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~ Work Part Start ~~~~~~~~~~~~~~~~~~~~
+===============================================================  */
+.work_full {
+    padding: 70px 0;
+    text-align: center;
+}
+
+.work_container .head {
+    position: relative;
+}
+
+.work_container .head::after {
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 1px;
+    left: 50%;
+    bottom: 0;
+    background: #c6c4c9;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.work_container .head h2 {
+    font-family: 'PlayfairDisplay-Bold', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #413d4b;
+}
+
+.work_container .head p {
+    font-family: 'PlayfairDisplay-Regular', sans-serif;
+    font-size: 14px;
+    color: #2f2d35;
+    padding: 10px 0 15px;
+}
+
+.work_full .body .buttons {
+    margin: 30px 0;
+}
+
+.work_full .body .buttons button {
+    font-family: 'Myriad Pro', sans-serif;
+    color: #413d4b;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 10px;
+    background: transparent;
+    border: 1px solid #dddddd;
+    padding-top: 5px;
+    cursor: pointer;
+    margin: 0 3px;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.work_full .body .buttons button:hover {
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -ms-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.work_full .body .body_inner {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.work_full .body .body_inner .item {
+    width: 16.66%;
+    overflow: hidden;
+}
+
+.work_full .body .body_inner .item a {
+    width: 100%;
+}
+
+.work_full .body .body_inner .item img {
+    width: 100%;
+
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+    transform: scale(1.1);
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.work_full .body .body_inner .item img:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+}
+
+.work_full .link a {
+    font-family: 'HammersmithOne-Regular', sans-serif;
+    color: #00e0d0;
+    font-size: 16px;
+    line-height: 40px;
+    margin-top: 50px;
+    padding: 0 25px;
+    border: 1px solid #00e0d0;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.work_full .link a:hover {
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -ms-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+/*  ===========================================================
+    ~~~~~~~~~~~~~~~~~~~~  Work Part End  ~~~~~~~~~~~~~~~~~~~~  */
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~ TextSlider Part Start ~~~~~~~~~~~~~~~~~~~~
+===============================================================  */
+.text_slider_full {
+    background: url(../images/banner_slider_text.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 70px 0;
+    position: relative;
+    z-index: 1;
+}
+
+.text_slider_container {
+    text-align: center;
+    margin-bottom: 70px;
+}
+
+.text_slider {
+    position: relative;
+}
+
+.text_slider .item i {
+    margin: 50px;
+    font-size: 30px;
+    color: #fff;
+}
+
+.text_slider .item p {
+    font-family: 'PlayfairDisplay-Regular', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    color: #fff;
+    padding: 0 110px;
+}
+
+.text_slider .item h3 {
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 14px;
+    color: #fff;
+    margin-top: 33px;
+}
+
+.text_slider .item h4 {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 13px;
+    color: #fff;
+    margin-top: 5px;
+}
+
+.text_slider .slick-dots {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    position: absolute;
+    left: 50%;
+    bottom: -60px;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.text_slider .slick-dots li button {
+    font-size: 0;
+    width: 21px;
+    height: 21px;
+    border-radius: 50%;
+    background: #fff;
+    border: 6px solid #fff;
+    margin: 0 14px;
+    cursor: pointer;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.text_slider .slick-dots li button:hover {
+    background: #fff;
+    border: 6px solid #00e0d0;
+}
+
+.text_slider .slick-dots li.slick-active button {
+    background: #00e0d0;
+}
+
+.text_slider_full .overly {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(27, 16, 68, 0.85);
+    z-index: -1;
+}
+
+/*  ===========================================================
+    ~~~~~~~~~~~~~~~~~~~~  TextSlider Part End  ~~~~~~~~~~~~~~~~~~~~  */
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~ Contact Part Start ~~~~~~~~~~~~~~~~~~~~
+===============================================================  */
+.contact_full {
+    padding: 70px 0;
+}
+
+.contact_container {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.contact_container .message {
+    width: 50%;
+}
+
+.contact_container .message .head h2 {
+    font-family: 'PlayfairDisplay-Bold', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #413d4b;
+}
+
+.contact_container .message .body input {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+    border: 0;
+    width: 100%;
+    height: 45px;
+    color: #00e0d0;
+    border: 1px solid #e5e5e5;
+    margin-top: 21px;
+    padding-left: 20px;
+    line-height: 45px;
+}
+
+.contact_container .message .body textarea {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+    border: 0;
+    width: 100%;
+    height: 200px;
+    color: #00e0d0;
+    border: 1px solid #e5e5e5;
+    margin-top: 21px;
+    padding-left: 20px;
+    line-height: 45px;
+    resize: none;
+}
+
+.contact_container .message .body input:focus,
+.contact_container .message .body textarea:focus {
+    border: 1px solid #00e0d0;
+}
+
+::placeholder {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+    color: #413d4b;
+    line-height: 45px;
+}
+
+.contact_container .message .body button {
+    font-family: 'HammersmithOne-Regular', sans-serif;
+    color: #00e0d0;
+    background: transparent;
+    font-size: 16px;
+    line-height: 40px;
+    margin-top: 21px;
+    padding: 0 32px;
+    border: 1px solid #00e0d0;
+    cursor: pointer;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.contact_container .message .body button:hover {
+    border: 1px solid transparent;
+    -webkit-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -ms-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.contact_container .client {
+    width: 50%;
+}
+
+.contact_container .client .head h2 {
+    font-family: 'PlayfairDisplay-Bold', sans-serif;
+    font-size: 22px;
+    text-transform: uppercase;
+    color: #413d4b;
+    margin-left: 80px;
+}
+
+.contact_container .client .body {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    -webkit-flex-wrap: wrap;
+    -moz-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -o-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.contact_container .client .body .item {
+    padding-left: 80px;
+    height: 90px;
+    width: 50%;
+    line-height: 80px;
+    text-align: center;
+}
+
+.error {
+    border: 1px solid red !important;
+}
+
+.error::placeholder {
+    color: red !important;
+}
+
+/*  ===========================================================
+    ~~~~~~~~~~~~~~~~~~~~  Contact Part End  ~~~~~~~~~~~~~~~~~~~~  */
+
+
+/*  ~~~~~~~~~~~~~~~~~~~~ Footer Part Start ~~~~~~~~~~~~~~~~~~~~
+===============================================================  */
+.footer_full {
+    background: url(../images/banner_footer.jpg) no-repeat center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 70px;
+    position: relative;
+    z-index: 1;
+}
+
+.footer_container .body {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.footer_container .body .item {
+    width: 30%;
+}
+
+.footer_container .body .item h3 {
+    font-family: 'Roboto-Black', sans-serif;
+    font-size: 15px;
+    color: #fff;
+    line-height: 50px;
+}
+
+.footer_container .body .item .text {
+    padding: 20px 0;
+}
+
+.footer_text p {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    padding-right: 30px;
+}
+
+.footer_location p {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+    line-height: 26px;
+    color: #fff;
+    padding-right: 30px;
+}
+
+.footer_location p span {
+    display: block;
+    padding-left: 23px;
+}
+
+.footer_location p i {
+    margin-right: 10px;
+}
+
+.newsletter {
+    height: 45px;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.newsletter input {
+    font-family: 'Roboto-Light', sans-serif;
+    font-size: 14px;
+    line-height: 45px;
+    padding: 0 25px;
+    color: #fff;
+    background: transparent;
+    border: 1px solid #fff;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.newsletter input::placeholder {
+    color: #fff;
+}
+
+.newsletter input:focus {
+    border: 1px solid #00e0d0;
+}
+
+.newsletter button {
+    background: transparent;
+    border: 0;
+}
+
+.newsletter button i {
+    margin-left: 10px;
+    font-size: 30px;
+    line-height: 43px;
+    padding: 0 20px;
+    color: #000;
+    background: #fff;
+    border: 1px solid #fff;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.newsletter button i:hover {
+    border: 1px solid transparent;
+    background: #00e0d0;
+    color: #fff;
+    -webkit-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -ms-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.footer_social_link ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.footer_social_link ul li a i {
+    font-size: 15px;
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    border: 1px solid #fff;
+    margin: 27px 8px 0 0;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.footer_social_link ul li a i:hover {
+    border: 1px solid transparent;
+    color: #00e0d0;
+    -webkit-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -ms-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    -o-box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0 4px 6px 0px rgba(0, 0, 0, 0.75);
+}
+
+.footer_full .overly {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(27, 16, 68, 0.85);
+    z-index: -1;
+}
+
+.copyright {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+
+    justify-content: space-between;
+    margin-top: 45px;
+}
+
+.copyright ul {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: flex;
+}
+
+.copyright ul li a {
+    font-family: 'Roboto-Regular', sans-serif;
+    margin-right: 30px;
+    font-size: 14px;
+    color: #fff;
+    position: relative;
+}
+
+.copyright ul li a::after {
+    content: '';
+    position: absolute;
+    height: 1px;
+    width: 0;
+    left: 0;
+    bottom: 0;
+    background: #fff;
+
+    transition: all linear .3s;
+    -webkit-transition: all linear .3s;
+    -moz-transition: all linear .3s;
+    -ms-transition: all linear .3s;
+    -o-transition: all linear .3s;
+}
+
+.copyright ul li a:hover::after {
+    width: 100%;
+}
+
+.copyright p {
+    font-family: 'Roboto-Regular', sans-serif;
+    font-size: 14px;
+    color: #fff;
+}
+
+/*  ===========================================================
+    ~~~~~~~~~~~~~~~~~~~~  Footer Part End  ~~~~~~~~~~~~~~~~~~~~  */
