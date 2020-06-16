@@ -1,0 +1,71 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+#back_to_top i {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    font-size: 30px;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: crimson;
+    border-radius: 5px;
+    margin: 15px;
+    z-index: 100;
+    cursor: pointer;
+    -webkit-transition: all linear .3s;
+    -o-transition: all linear .3s;
+    transition: all linear .3s;
+}
+
+#back_to_top i:hover {
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+}
+
+#preloader {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: #fff;
+    z-index: 1111;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#particles-js {
+    width: 100%;
+    height: 700px;
+    background: linear-gradient(to right, tomato, crimson, tomato);
+}
+
+#water {
+    background: url(../images/banner.jpg);
+    background-repeat:  no-repeat;
+    background-position: center center;
+    -webkit-background-size: cover;
+    background-size: cover;
+    padding: 200px 0;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-weight: 300;
+    text-align: center;
+    color: tomato;
+    font-size: 100px;
+    text-shadow: 3px 3px 5px #fff;
+}
+
+section {
+    margin: 10px 0;
+}
